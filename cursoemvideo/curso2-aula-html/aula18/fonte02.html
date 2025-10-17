@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'one';
+            src: url('fonte/NixieOne.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            tipos dee format()
+            opentype (otf)
+            truetype (ttf)
+            enbedded opentype (eot)
+            tuetype-aat ( apple advanced typography)
+            svg (scalable vector graphics)
+            */
+        }
+        
+        body {
+            font-family:  Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'one', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur a totam magni cumque consequuntur, cum accusantium nihil neque doloremque magnam architecto natus, rerum ea odio illo adipisci dolore excepturi exercitationem!</p>
+</body>
+</html>

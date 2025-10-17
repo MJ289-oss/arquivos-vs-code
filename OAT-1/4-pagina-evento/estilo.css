@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Cal Sans", sans-serif;
+}
+body {
+    background: url(https://images.pexels.com/photos/34036675/pexels-photo-34036675.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.topo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+h1  {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: black;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.secao {
+    margin: 20px;
+    align-items: center;
+    border: 2px solid none;
+    background-color: rgba(181, 226, 237, 0.41);
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 80px;
+}

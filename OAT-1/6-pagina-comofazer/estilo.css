@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    font-family:  "Cal Sans", sans-serif;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/9108259/pexels-photo-9108259.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    justify-content: flex-end;
+    width: auto;
+    display: flex;
+    padding: 20px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.introducao_preparo {
+    justify-content: flex-end;
+    width: auto;
+    display: flex;
+    border-radius: 30px;
+    background-color: #f2b70549;
+    margin-right: 0;
+    margin: 20px;
+    padding: 15px 20px;
+    margin-inline-start: 50%;
+}

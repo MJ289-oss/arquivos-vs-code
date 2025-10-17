@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Cal Sans", sans-serif;
+}
+
+body {
+    background-color: #202026;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #59443F;
+    height: 60px;
+}
+
+.portifolio {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #A69581;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 900px;
+    height: auto;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}

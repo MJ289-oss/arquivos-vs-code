@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Pessoal</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Convite para uma noite de jogos</h1>
+    </header>
+
+    <main>
+        <div class="paragrafo">
+            <p>Prepare-se para uma noite cheia de diversão e estratégia! Vamos nos reunir com amigos em nossa Noite de Jogos, com desafios e muita interação estão garantidos. Traga sua energia, sua melhor jogada e descubra quem será o grande vencedor da noite!</p>
+            <p>Será relizado na minha casa: Rua Doutor Kleber Nuno Maia 250, no dia 18/10 as 19hrs</p>
+            
+        </div>
+        <div>
+            <h2>Local no Google Maps</h2>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d562.6794570677989!2d-39.257988963009524!3d-12.439261462311709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1759076625749!5m2!1spt-BR!2sbr" width="550" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <h2>Confime sua presença</h2>
+        </div>
+        <div class="formulario">
+            <form action="envio/" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+                <label>você vai comparecer?</label><br>
+                <input type="radio" name="presenca" id="sim" value="sim" required>
+                <label for="sim">Sim</label>
+                <input type="radio" id="nao" name="presenca" value="não">
+                <label for="nao">Não</label><br><br>
+                <button type="submit">Confirmar Presença</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-image: linear-gradient(to right, purple 30%, blue 100%);
+}
+h6 {
+    text-align: center;
+    background-image: linear-gradient(to right, purple 30%, blue 100%);
+}
+
+p {
+    text-align: center;
+    align-content: top;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 2px;
+    height: 20px;
+    width: 200px;
+    
+}
+
+.manha {
+    border: 2px solid none;
+    background-color: #70ACB4;
+    height: 500px;
+    width: 500px;
+    align-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.tarde {
+    border: 2px solid none;
+    background-color: #B0553A;
+    height: 500px;
+    width: 500px;
+    align-content: space-around; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.noite {
+    border: 2px solid none;
+    background-color: #0D1625;
+    height: 500px;
+    width: 500px;
+    align-content: space-around; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.a {
+    background-color: rgb(81, 81, 171);
+}
+
+.b {
+    background-color: rgb(162, 75, 75);
+}
+
+.c {
+    background-color: rgb(29, 28, 28);
+}

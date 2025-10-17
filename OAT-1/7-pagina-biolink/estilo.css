@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*  {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Cal Sans", sans-serif;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2024/05/15/16/15/sky-8763986_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    color: black;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+.identificacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    background-color: #005C53;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    max-width: 300px;
+    height: 50px;
+}

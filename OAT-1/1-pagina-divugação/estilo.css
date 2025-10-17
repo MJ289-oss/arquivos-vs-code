@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: "Cal Sans", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #131313;
+    
+}
+
+header {
+    background-color: #053D38;
+    width: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+nav a {
+    margin-left: 20px;
+}
+
+.secao {
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tenis {
+    width: 400px;
+    height: auto;
+}
+
+.paragrafo_beneficios {
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    text-align: justify;
+    text-indent: 30px;
+    background-color: #132521;
+    border-radius: 30px;
+}
+
+.principais_caracteristicas {
+    margin-left: 20px;
+}
+
+.botao_comprar {
+    background-color: #F26800;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
