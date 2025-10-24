@@ -1,2 +1,2 @@
 # arquivos vs code
-estudos no vscode
+Meus arquivos sobre os estudos no vs code para aprender programação
