@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Passos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: lightblue;
+            color: #333;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #2b1055;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        section {
+            background-color: #fff;
+            border-radius: 15px;
+            border: 1px solid black;
+            padding: 25px;
+            max-width: 500px;
+            margin: 30px auto;
+        }
+
+        input {
+            text-align: center;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #5e17eb;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #7a3ff1;
+        }
+
+        #res, #r {
+            margin-top: 20px;
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contador de Passos</h1>
+    <section>
+        <p>Este contador permite que você insira um número inicial, um número final e um passo.  
+        Ao clicar em Contar, ele exibirá todos os números dentro desse intervalo!</p>
+    </section>
+    <section>
+        <div>
+            <label for="txti">Início:</label>
+            <input type="number" id="txti">
+        </div>
+
+        <div>
+            <label for="txtf">Fim:</label>
+            <input type="number" id="txtf">
+        </div>
+
+        <div>
+            <label for="txtp">Passo:</label>
+            <input type="number" id="txtp">
+        </div>
+
+        <button onclick="contar()">Contar</button>
+
+        <div id="r"></div>
+        <div id="res"></div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        function contar() {
+            let ini = document.getElementById('txti')
+            let fin = document.getElementById('txtf')
+            let passo = document.getElementById('txtp')
+            let res = document.getElementById('res')
+            let r = document.getElementById('r')
+
+            if (ini.value.length == 0 || fin.value.length == 0 || passo.value.length == 0) {
+                alert('Entrada inválida');
+            } else {
+                let i = Number(ini.value);
+                let f = Number(fin.value);
+                let p = Number(passo.value);
+                r.innerHTML = '\u{1F3C1}';
+                res.innerHTML = 'Contagem:<br>';
+
+                if (p <= 0) {
+                    res.innerHTML = 'Por favor informe uma quantidade de passos válida';
+                } else {
+                    res.innerHTML += ' | ';
+                    for (let c = i; c <= f; c += p) {
+                        res.innerHTML += c;
+                        res.innerHTML += ' | ';
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
