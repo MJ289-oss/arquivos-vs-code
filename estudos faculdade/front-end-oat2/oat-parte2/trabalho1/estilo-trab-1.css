@@ -1,0 +1,53 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    padding-top: 56px;
+}
+
+#menu-nav {
+    top: 56px;
+    z-index: 1020;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+}
+
+#menu-nav .nav-link {
+    transition: all 0.3s ease;
+}
+
+#menu-nav .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+#menu-nav .nav-pills .nav-link.active {
+    background-color: red; 
+    color: white;
+    border-radius: 50rem;
+    padding: 0.5rem 1.5rem;
+}
+
+#promocoes .carousel-item .card {
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+#promocoes .carousel-item .card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-footer {
+    border-top: 1px solid #dee2e6;
+}

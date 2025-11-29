@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Lanches - Cardápio Digital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="imagens/lanchonete (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo-trab-1.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu-nav" data-bs-offset="56">
+
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="imagens/lanchonete (2).png" alt="Logo Top Lanches" class="me-2" style="height: 40px;">
+                <h1 class="h4 mb-0 text-white">Top Lanches</h1>
+            </a>
+            <button type="button" class="btn btn-success fw-bold">
+                <i class="bi bi-whatsapp me-1"></i> Contato
+            </button>
+        </div>
+    </header>
+
+    <main class="pt-5 mt-5">
+
+        <section class="container-fluid bg-light p-5 text-center">
+            <h2 class="display-6 fw-bold text-dark">Onde a felicidade é servida em pão.</h2>
+            <p class="lead text-muted">Confira nossas delícias e promoções da semana!</p>
+        </section>
+
+        <nav id="menu-nav" class="navbar navbar-expand-lg bg-white sticky-top shadow-sm py-2">
+            <div class="container d-flex justify-content-center">
+                <div class="nav nav-pills" role="tablist">
+                    <a class="nav-link active text-dark fw-bold" href="#promocoes" role="tab">Promoções</a>
+                    <a class="nav-link text-dark fw-bold" href="#lanches" role="tab">Lanches</a>
+                    <a class="nav-link text-dark fw-bold" href="#bebidas" role="tab">Bebidas</a>
+                    <a class="nav-link text-dark fw-bold" href="#sobremesas" role="tab">Sobremesas</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-5">
+
+            <section id="promocoes" class="mb-5 py-3">
+                <h2 class="text-center mb-4 display-5 fw-bold text-danger">Super Promoções</h2>
+                
+                <div id="carouselPromocoes" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                        <div class="carousel-item active">
+                            <div class="card bg-danger text-white border-0 shadow-lg p-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                        <div class="p-3 text-center">
+                                            <i class="bi bi-award-fill display-1"></i>
+                                            <p class="lead fw-bold">ECONOMIZE AGORA!</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title display-4 fw-bold">O Clássico Duplo</h5>
+                                            <p class="card-text fs-5">Dois hambúrgueres simples por um preço incrível. Perfeito para dividir!</p>
+                                            <div class="d-flex align-items-center">
+                                                <span class="text-decoration-line-through fs-4 me-3">R$ 45,90</span>
+                                                <span class="display-5 fw-bold text-warning">R$ 34,90</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="card bg-warning text-dark border-0 shadow-lg p-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                        <div class="p-3 text-center">
+                                            <i class="bi bi-cup-straw display-1"></i>
+                                            <p class="lead fw-bold">GRÁTIS!</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title display-4 fw-bold">Mega Combo Família</h5>
+                                            <p class="card-text fs-5">2 lanches Premium + 1 Milkshake de Chocolate + 2 Refrigerantes de 350ml cada!</p>
+                                            <span class="fs-4">A partir de:</span>
+                                            <span class="display-5 fw-bold text-danger">R$ 99,90</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromocoes" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPromocoes" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </section>
+
+            <hr class="my-5">
+
+            <section id="lanches" class="mb-5 py-3">
+                <h2 class="text-center mb-4 display-5 fw-bold text-dark"><i class="bi bi-burger me-2"></i> Lanches</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.pexels.com/photos/29250659/pexels-photo-29250659.jpeg?_gl=1*riwk4j*_ga*NjYyMDMxMDg3LjE3NjMxMzM1MTE.*_ga_8JE65Q40S6*czE3NjMxMzM1MTAkbzEkZzEkdDE3NjMxMzM3MzckajUzJGwwJGgw" class="card-img-top" alt="Mega Burger">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Hambúrguer Cheddar</h5>
+                                <p class="card-text text-muted">Blend de 180g, queijo cheddar duplo, maionese artesanal e pão brioche.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                                <span class="fs-4 fw-bold text-success">R$ 32,50</span>
+                                <button class="btn btn-outline-dark btn-sm">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.pexels.com/photos/2874990/pexels-photo-2874990.jpeg?_gl=1*17b41z5*_ga*NjYyMDMxMDg3LjE3NjMxMzM1MTE.*_ga_8JE65Q40S6*czE3NjMxMzM1MTAkbzEkZzEkdDE3NjMxMzM4MjMkajI4JGwwJGgw" class="card-img-top" alt="Frango Supreme">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Frango Supreme</h5>
+                                <p class="card-text text-muted">Peito de frango empanado, repolho, queijo prato e molho especial da casa.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                                <span class="fs-4 fw-bold text-success">R$ 28,90</span>
+                                <button class="btn btn-outline-dark btn-sm">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.pexels.com/photos/5175580/pexels-photo-5175580.jpeg?_gl=1*yo3ytw*_ga*NjYyMDMxMDg3LjE3NjMxMzM1MTE.*_ga_8JE65Q40S6*czE3NjMxMzM1MTAkbzEkZzEkdDE3NjMxMzM5NjYkajMxJGwwJGgw" class="card-img-top" alt="Vegetariano">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Hambúrguer Vegetariano</h5>
+                                <p class="card-text text-muted">Hambúrguer de carne vegana, queijo coalho, tomate e alface.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                                <span class="fs-4 fw-bold text-success">R$ 29,90</span>
+                                <button class="btn btn-outline-dark btn-sm">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-5">
+
+            <section id="bebidas" class="mb-5 py-3">
+                <h2 class="text-center mb-4 display-5 fw-bold text-dark">Bebidas</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.pexels.com/photos/13045535/pexels-photo-13045535.jpeg" class="card-img-top" alt="Refrigerante">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Refrigerante Lata</h5>
+                                <p class="card-text text-muted">Coca-Cola. 350ml, bem gelado.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                                <span class="fs-4 fw-bold text-success">R$ 6,50</span>
+                                <button class="btn btn-outline-dark btn-sm">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.pexels.com/photos/4443460/pexels-photo-4443460.jpeg" class="card-img-top" alt="Suco Natural">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Suco de Laranja Natural</h5>
+                                <p class="card-text text-muted">Suco natural da fruta, sem adição de açúcares. 400ml, feito na hora.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                                <span class="fs-4 fw-bold text-success">R$ 10,00</span>
+                                <button class="btn btn-outline-dark btn-sm">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-5">
+
+            <section id="sobremesas" class="mb-5 py-3">
+                <h2 class="text-center mb-4 display-5 fw-bold text-dark">Sobremesas</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.pexels.com/photos/28162736/pexels-photo-28162736.jpeg" class="card-img-top" alt="Milkshake">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Milkshake de Chocolate</h5>
+                                <p class="card-text text-muted">Milkshake cremoso com calda de chocolate e chantilly.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                                <span class="fs-4 fw-bold text-success">R$ 18,00</span>
+                                <button class="btn btn-outline-dark btn-sm">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://images.pexels.com/photos/18063285/pexels-photo-18063285.jpeg" class="card-img-top" alt="Petit Gateau">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Bolo de Chocolate</h5>
+                                <p class="card-text text-muted">Bolo de chocolate com recheio cremoso de café.</p>
+                            </div>
+                            <div class="card-footer bg-white border-0 d-flex justify-content-between align-items-center">
+                                <span class="fs-4 fw-bold text-success">R$ 22,00</span>
+                                <button class="btn btn-outline-dark btn-sm">Adicionar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-4 pb-2 mt-5">
+        <div class="container text-center">
+            <h5 class="text-warning">Top Lanches</h5>
+            <p class="mb-1">
+                <i class="bi bi-geo-alt-fill me-2"></i> Rua Getúlio Vargas, 123 - Centro, Feira de Santana, BA
+            </p>
+            <p class="mb-3">
+                <i class="bi bi-clock-fill me-2"></i> Horário: **Terça a Domingo, das 18h00 às 23h30**
+            </p>
+            <button type="button" class="btn btn-success btn-lg fw-bold mb-3">
+                <i class="bi bi-whatsapp me-2"></i> FAÇA SEU PEDIDO AGORA!
+            </button>
+            <p class="mb-0">Feito por <strong>Moisés Júnior</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script-trab-1.js"></script>
+</body>
+</html>

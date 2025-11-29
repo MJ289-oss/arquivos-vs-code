@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enigma 3</title>
+  <link type="image/png" sizes="16x16" rel="icon" href="../imagem/icons8-favicon-100.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    .riddle-container {
+      max-width: 600px;
+      width: 90%;
+    }
+  </style>
+</head>
+
+<body class="bg-info bg-opacity-50 d-flex flex-column min-vh-100">
+  <header class="bg-info text-center py-3">
+    <h1 class="m-0 fs-3">Enigma 3</h1>
+  </header>
+
+  <main class="flex-grow-1">
+    <section class="my-5">
+      <div class="container bg-white border rounded-3 p-4 mx-auto riddle-container">
+        <h2 class="text-center mb-4 text-info">O que eu sou?</h2>
+        <div class="text-center">
+          <p class="lead fw-bold text-dark-emphasis">
+            Eu sou leve como uma pena, mas o homem mais forte do mundo não consegue me segurar por muito tempo.
+          </p>
+          <p class="mt-4 text-muted small">Descubra a palavra para finalizar a jornada.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <div class="container bg-white border rounded-3 p-4 mx-auto riddle-container">
+        <form action="../fim.html" method="get" class="d-flex flex-column flex-md-row align-items-center gap-3 justify-content-center">
+          <h3 id="form-title" class="sr-only visually-hidden">Formulário de Resposta do Enigma</h3>
+          <label for="senha" class="form-label mb-0 text-nowrap">Digite aqui:</label>
+          <input type="text" id="senha" name="senha" class="form-control flex-grow-1" placeholder="Resposta" pattern="folego" required autofocus>
+          <button type="submit" class="btn btn-outline-info w-100 w-md-auto">
+            Prosseguir
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-primary text-white text-center py-3 mt-auto">
+    <p class="mb-0">Feito por <strong>Moisés Júnior</strong></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
