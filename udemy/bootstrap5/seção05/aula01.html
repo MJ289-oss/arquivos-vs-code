@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 - aula 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .full-height {
+            min-height: 100vh;
+        }
+        
+        .img-cover {
+            background-image: url('https://images.pexels.com/photos/35177677/pexels-photo-35177677.jpeg?_gl=1*1lza3lx*_ga*NjYyMDMxMDg3LjE3NjMxMzM1MTE.*_ga_8JE65Q40S6*czE3NjU2Mzk1OTIkbzIkZzEkdDE3NjU2Mzk2MDUkajQ3JGwwJGgw');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .imput {
+            width: 100%;
+            margin-bottom: 10px;
+            outline: none;
+        }
+
+        .icons>.btn {
+            color: white;
+            width: 40px;
+            height: 40px;
+            padding: 0px;
+            line-height: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row full-height">
+            <div class="col-md-6 col-12">
+                <div class="row justify-content-center full-height">
+                    <div class="col-8 col-xxl-5 align-self-center">
+                        <h2 class="display-5">Login</h2>
+                        <p class="lead mb-4" style="margin-bottom: 40px;">Faça o login para
+                        continuar</p>
+                        <input class="imput border-0 border-bottom p-2" placeholder="E-mail" type="email">
+                        <br>
+                        <input class="imput border-0 border-bottom p-2" placeholder="Senha" type="password">
+                        <br>
+                        <div class="mt-4 d-flex justify-content-between align-items-center">
+                            <button class="btn btn-danger">Logar</button>
+                            <a href="#" class="text-secondary text-decoration-none">Esqueceu a senha</a>
+                        </div>
+                        
+
+                        <hr class="m-5">
+                        <div class="d-flex icons justify-content-around">
+                            <button class="btn btn-primary bi bi-facebook rounded-circle"></button>
+                            <button class="btn btn-danger bi bi-google rounded-circle"></button>
+                            <button class="btn btn-info bi bi-twitter rounded-circle"></button>
+                            <button class="btn btn-primary bi bi-linkedin rounded-circle"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 full-height img-cover d-none d-md-block">
+                
+            </div>
+        </div>
+    </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
