@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 - aula 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col">
+          <h3 class="lead pb-3">Aninhamento de tabelas</h3>
+
+          <table class="table align-middle">
+            <thead>
+              <tr>
+                <th scope="col">COD</th>
+                <th scope="col">NOME</th>
+                <th scope="col">E-MAIL</th>
+                <th scope="col">TELEFONE</th>
+                <th scope="col">AÇÃO</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>DELL</td>
+                <td>contato@dell.com.br</td>
+                <td>0800 535 5950</td>
+                <td>
+                  <button class="btn btn-outline-primary btn-sm">Visualizar</button>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="5">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Tipo de informação</th>
+                                <th scope="col">Informação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CNPJ</td>
+                                <td>70.484.489/0001-32</td>
+                            </tr>
+
+                            <tr>
+                                <td>TELEFONE DE VENDA</td>
+                                <td>0800 535 5951</td>
+                            </tr>
+
+                            <tr>
+                                <td>TELEFONE DE SUPORTE</td>
+                                <td>0800 535 5952</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">2</th>
+                <td>APPLE</td>
+                <td>contato@apple.com.br</td>
+                <td>0800 535 8000</td>
+                <td>
+                  <button class="btn btn-outline-primary btn-sm">Visualizar</button>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">3</th>
+                <td>LENOVO</td>
+                <td>contato@lenovo.com.br</td>
+                <td>0800 535 7500</td>
+                <td>
+                  <button class="btn btn-outline-primary btn-sm">Visualizar</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
